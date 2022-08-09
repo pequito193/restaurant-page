@@ -17,7 +17,7 @@ function createMenu() {
             const food1Picture = document.createElement('img')
             const food1Price = document.createElement('p')
             food1Picture.classList.add('food-image')
-            food1Picture.src = './../dist/images/steak.webp'
+            food1Picture.src = './images/steak.webp'
             food1Price.textContent = 'Outstanding roasted beef, 8.00$'
 
         const food2 = document.createElement('div')
@@ -25,7 +25,7 @@ function createMenu() {
             const food2Picture = document.createElement('img')
             const food2Price = document.createElement('p')
             food2Picture.classList.add('food-image')
-            food2Picture.src = './../dist/images/pork.webp'
+            food2Picture.src = './images/pork.webp'
             food2Price.textContent = 'Delicious cooked pork, 7.00$'
 
         const food3 = document.createElement('div')
@@ -33,7 +33,7 @@ function createMenu() {
             const food3Picture = document.createElement('img')
             const food3Price = document.createElement('p')
             food3Picture.classList.add('food-image')
-            food3Picture.src = './../dist/images/chicken.webp'
+            food3Picture.src = './images/chicken.webp'
             food3Price.textContent = 'Spicy chicken curry, 6.00$'
 
         const food4 = document.createElement('div')
@@ -41,7 +41,7 @@ function createMenu() {
             const food4Picture = document.createElement('img')
             const food4Price = document.createElement('p')
             food4Picture.classList.add('food-image')
-            food4Picture.src = './../dist/images/lamb.webp'
+            food4Picture.src = './images/lamb.webp'
             food4Price.textContent = 'Lamb (mutton) chops, 7.50$'
 
         const food5 = document.createElement('div')
@@ -49,7 +49,7 @@ function createMenu() {
             const food5Picture = document.createElement('img')
             const food5Price = document.createElement('p')
             food5Picture.classList.add('food-image')
-            food5Picture.src = './../dist/images/rabbit.webp'
+            food5Picture.src = './images/rabbit.webp'
             food5Price.textContent = 'Spicy rabbit broth, 6.50$'
 
         
@@ -70,7 +70,7 @@ function createMenu() {
             const fish1Picture = document.createElement('img')
             const fish1Price = document.createElement('p')
             fish1Picture.classList.add('food-image')
-            fish1Picture.src = './../dist/images/salmon.webp'
+            fish1Picture.src = './images/salmon.webp'
             fish1Price.textContent = 'Delicious roasted salmon, 9.00$'
 
         const fish2 = document.createElement('div')
@@ -78,7 +78,7 @@ function createMenu() {
             const fish2Picture = document.createElement('img')
             const fish2Price = document.createElement('p')
             fish2Picture.classList.add('food-image')
-            fish2Picture.src = './../dist/images/pufferfish.webp'
+            fish2Picture.src = './images/pufferfish.webp'
             fish2Price.textContent = 'Pufferfish sashimi, 9.50$'
 
         const fish3 = document.createElement('div')
@@ -86,7 +86,7 @@ function createMenu() {
             const fish3Picture = document.createElement('img')
             const fish3Price = document.createElement('p')
             fish3Picture.classList.add('food-image')
-            fish3Picture.src = './../dist/images/cod.webp'
+            fish3Picture.src = './images/cod.webp'
             fish3Price.textContent = 'Exquisite salted cod, 7.50$'
 
 
@@ -101,7 +101,7 @@ function createMenu() {
     footer.classList.add('footer')
         const logo = document.createElement('img')
         logo.classList.add('logo')
-        logo.src = './../dist/images/github.png'
+        logo.src = './images/github.png'
 
         const footerText = document.createElement('a')
         footerText.classList.add('footer-text')

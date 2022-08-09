@@ -10,7 +10,7 @@ function createContacts() {
     footer.classList.add('footer')
         const logo = document.createElement('img')
         logo.classList.add('logo')
-        logo.src = './../dist/images/github.png'
+        logo.src = './images/github.png'
 
         const footerText = document.createElement('a')
         footerText.classList.add('footer-text')

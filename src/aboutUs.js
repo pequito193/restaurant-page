@@ -29,7 +29,7 @@ function createAboutUs() {
             const managerPicture = document.createElement('img')
             const managerName = document.createElement('p')
             managerName.textContent = 'Our Manager, Albert'
-            managerPicture.src = './../dist/images/manager.jpg'
+            managerPicture.src = './images/manager.jpg'
             managerPicture.classList.add('staff')
 
         const chef = document.createElement('div')
@@ -37,7 +37,7 @@ function createAboutUs() {
             const chefPicture = document.createElement('img')
             const chefName = document.createElement('p')
             chefName.textContent = 'Our Chef, Fred'
-            chefPicture.src = './../dist/images/chef.webp'
+            chefPicture.src = './images/chef.webp'
             chefPicture.classList.add('staff')
 
         const cook = document.createElement('div')
@@ -45,7 +45,7 @@ function createAboutUs() {
             const cookPicture = document.createElement('img')
             const cookName = document.createElement('p')
             cookName.textContent = 'Our Cook, Gregory'
-            cookPicture.src = './../dist/images/cook.jpeg'
+            cookPicture.src = './images/cook.jpeg'
             cookPicture.classList.add('staff')
 
 
@@ -59,7 +59,7 @@ function createAboutUs() {
     footer.classList.add('footer')
         const logo = document.createElement('img')
         logo.classList.add('logo')
-        logo.src = './../dist/images/github.png'
+        logo.src = './images/github.png'
 
         const footerText = document.createElement('a')
         footerText.classList.add('footer-text')
