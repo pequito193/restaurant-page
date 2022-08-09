@@ -12,11 +12,46 @@ body {
 h1 {
     text-align: center;
     font-size: 4rem;
+    margin-bottom: 10vh;
+}
+
+.description {
+    margin: 0 6vw 8vh;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.text {
+    font-size: 1.5rem;
+}
+
+.team-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 6vw;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 6vw;
+}
+
+.personnel {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
 }
 
 .staff {
-    height: 15vh;
+    height: 20vh;
     width: 15vw;
+    border: 4px solid black;
+    border-radius: 10%;
+    box-shadow: 6px 6px 6px gray;
 }
 
 

@@ -2,6 +2,8 @@ import { createAboutUs } from "./aboutUs";
 import { createMenu } from "./menu";
 import { createContacts } from "./contacts";
 
+createAboutUs();
+
 const aboutUs = document.querySelector('.about')
 aboutUs.addEventListener('click', createAboutUs)
 
